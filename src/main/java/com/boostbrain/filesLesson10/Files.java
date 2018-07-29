@@ -1,4 +1,4 @@
-package com.boostbrain.files;
+package com.boostbrain.filesLesson10;
 
 import java.io.*;
 

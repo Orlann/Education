@@ -17,13 +17,13 @@ public class FilesExample {
         inputFile.read(inputFileByteArray);
         String fileText = new String (inputFileByteArray);
 
-        String[] fileStrinfArray = fileText.split(",");
-        for (int i = 0; i < fileStrinfArray.length; i++) {
-            System.out.println(fileStrinfArray[i]);
+        String[] fileStringArray = fileText.split(",");
+        for (int i = 0; i < fileStringArray.length; i++) {
+            System.out.println(fileStringArray[i]);
         }
 
-        FileOutputStream outputFile = new FileOutputStream("./data/CountriesInEurope.txt");
-        outputFile.write(fileStrinfArray.);
+        FileOutputStream outputFile = new FileOutputStream("./data/CountriesInEurope.txt",true);
+        outputFile.write(inputFileByteArray);
         outputFile.close();
     }
 }
