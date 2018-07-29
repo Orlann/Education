@@ -1,6 +1,6 @@
 package com.boostbrain.genericsLesson15;
 
-public class Generics {
+public class GenericsApp {
 
 
     public static void main(String[] args) {
