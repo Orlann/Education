@@ -16,6 +16,7 @@ public class Application {
 
         //TODO take name of animal from class name
         barsik.printSpeed();
+        System.out.println(barsik.getSpeed());
         sharik.writeSpeed();
     }
 }
